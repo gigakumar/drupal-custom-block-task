@@ -4,20 +4,21 @@
 /**
 * Implements hook_theme().
 */
-function custom_block_theme() {
-return [
-'custom-block' => [
-'variables' => [
-'label' => NULL,
-'title' => NULL,
-'image' => NULL,
-'description' => NULL,
-'background' => NULL,
-'color' => NULL,
-'theme' => 'custom-block',
-]
-],
-];
+function custom_block_theme() 
+{
+  return [
+    'custom-block' => [
+        'variables' =>  [
+        'label' => NULL,
+        'title' => NULL,
+        'image' => NULL,
+        'description' => NULL,
+        'background' => NULL,
+        'color' => NULL,
+        'theme' => 'custom-block',
+                        ]
+                    ],
+       ];
 }
 
 
