@@ -1,7 +1,0 @@
-name: kamlendra custom block
-description: 'Kamlendra custom block  Module'
-type: module
-version: 1.0 
-package: custom
-core_version_requirement: ^8.0 || ^9.3.12
-
