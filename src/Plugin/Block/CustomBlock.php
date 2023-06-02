@@ -55,7 +55,7 @@ $build['content'] = [
 '#color' => $config['color'],
 '#theme' => 'custom-block',
 ];
-$build['#attached']['library'][] = 'custom_block/kam-library';
+
 return $build;
 }
 
